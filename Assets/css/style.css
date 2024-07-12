@@ -13,6 +13,8 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    width: 100%;
+    height: 100px;
 }
 
 .header h1 {
@@ -24,12 +26,17 @@ body {
     color: #d9dcd6;
 }
 
+nav {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+
 .header div {
     padding-top: 15px;
-    margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .header div ul {
@@ -38,16 +45,22 @@ body {
 
 .header div ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 p {
     font-size: 16px;
+}
+
+section {
+    width: 100%;
 }
 
 .hero {
@@ -61,6 +74,11 @@ p {
     aria-hidden: true;
 }
 
+main {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
 
 .float-left {
     float: left;
@@ -74,21 +92,22 @@ p {
 
 .content {
     width: 75%;
-    display: inline-block;
+    float: left;
     margin-left: 20px;
+    
+}
+
+aside {
+    width: 20%;
+    float: right;
 }
 
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    margin-right: 0;
-    
 }
 
 .benefit-lead {
