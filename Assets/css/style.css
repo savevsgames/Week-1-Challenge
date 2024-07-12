@@ -13,8 +13,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    width: 100%;
-    height: 100px;
 }
 
 .header h1 {
@@ -34,9 +32,10 @@ nav {
 
 .header div {
     padding-top: 15px;
+    margin-left: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .header div ul {
@@ -45,22 +44,16 @@ nav {
 
 .header div ul li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 24px;
 }
 
 p {
     font-size: 16px;
-}
-
-section {
-    width: 100%;
 }
 
 .hero {
@@ -70,14 +63,18 @@ section {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-    aria-label: "Digital Marketing Meeting";
-    aria-hidden: true;
 }
 
 main {
     width: 100%;
     margin: 0 auto;
-    overflow: hidden;
+}
+
+.content {
+    width: 75%;
+    margin-left: 20px;
+    float: left;
+    display: inline-block;
 }
 
 .float-left {
@@ -89,25 +86,20 @@ main {
     float: right;
     margin-left: 25px;
 }
-
-.content {
-    width: 75%;
-    float: left;
-    margin-left: 20px;
-    
-}
-
+ 
 aside {
     width: 20%;
-    float: right;
-}
-
-.benefits {
     margin-right: 20px;
     padding: 20px;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    float: right;
+}
+
+.benefits {
+    padding: 20px;
+    text-align: center;
 }
 
 .benefit-lead {
@@ -189,18 +181,18 @@ aside {
 }
 
 .search-engine-optimization img {
-    height: 200px;
     max-height: 200px;
+    height: 200px;
 }
 
 .online-reputation-management img {
-    height: 200px;
     max-height: 200px;
+    height: 200px;
 }
 
 .social-media-marketing img {
-    height: 200px;
     max-height: 200px;
+    height: 200px;
 }
 
 .search-engine-optimization h2 {
@@ -220,15 +212,12 @@ aside {
 
 footer {
     padding: 30px;
-    text-align: center;
-}
-
-.footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    text-align: center;
 }
 
 .footer h2 {
     font-size: 20px;
 }
+
